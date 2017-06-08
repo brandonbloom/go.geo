@@ -11,7 +11,7 @@ import (
 // A PointSet represents a set of points in the 2D Eucledian or Cartesian plane.
 type PointSet []Point
 
-// NewPointSet simply creates a new point set with points array of the given size.
+// NewPointSet simply creates a new point set with an empty points slice.
 func NewPointSet() *PointSet {
 	return &PointSet{}
 }
